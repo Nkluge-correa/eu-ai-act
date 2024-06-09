@@ -64,6 +64,8 @@ h4 {
 
 h1 {
   font-size: 4rem;
+  line-height: 1.5;
+  word-spacing: 0.2em;
 }
 
 h2 {
@@ -276,7 +278,7 @@ main {
   text-align: center;
 }
 
-.about__name {
+.title {
   color: var(--clr-primary);
   text-align: center;
 }
@@ -360,29 +362,19 @@ main {
   }
 
   .nav__list {
-    flex-direction: column;
-    padding: 4em 0;
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 5em;
-    background-color: var(--clr-bg);
-    width: 0;
-    overflow: hidden;
-    transition: width 0.2s ease-in-out;
+    display: none;
   }
 
   .display-nav-list {
-    width: 100%;
+    display: none;
   }
 
   .nav__list-item {
-    margin: 0.5em 0;
+    display: none;
   }
 
   .nav__hamburger {
-    display: flex;
-    margin-left: 0.8em;
+    display: none;
   }
 
   .about {
