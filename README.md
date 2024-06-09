@@ -15,4 +15,4 @@ The [EU AI Act](https://ai-act-law.eu/) is a comprehensive regulatory framework 
 
 ## License
 
-Apache License, Version 2.0. See the [LICENSE](LICENSE) file for more details.
+Apache License, Version 2.0.
